@@ -1,0 +1,7 @@
+import clsx from 'clsx'
+
+export default function Container({ className, ...props }) {
+  return (
+    <div className={clsx('mx-auto max-w-7xl px-4 mt-24 mb-40 sm:px-6 lg:px-8', className)} {...props} />
+  )
+}
