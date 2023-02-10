@@ -1,8 +1,0 @@
-export { default as Image } from './Image'
-export { default as Container } from './Container'
-export { default as Button } from './Button'
-export { default as Map } from './Map'
-export { default as Input } from './Input'
-export { default as TextArea } from './TextArea'
-export { default as SEO } from './SEO'
-export { default as Logo } from './Logo'
