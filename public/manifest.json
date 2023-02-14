@@ -1,0 +1,13 @@
+{
+  "name": "Company",
+  "short_name": "Company",
+  "icons": [
+    {
+      "src": "Logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}
