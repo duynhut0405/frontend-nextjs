@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/future/image'
+import { Fragment } from 'react'
+
 export default function Home() {
   return (
-    <div>
-      <p className='text-red-700 font-bold'>TEST</p>
-    </div>
+    <Fragment>
+    </Fragment>
   )
 }

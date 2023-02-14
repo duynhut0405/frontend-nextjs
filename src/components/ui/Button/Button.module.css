@@ -1,0 +1,11 @@
+.root {
+  @apply text-lg py-3 px-6 rounded-[30px] flex justify-center items-center font-medium text-center gap-2;
+}
+
+.default {
+  @apply bg-BUTTON text-TEXT hover:bg-white;
+}
+
+.primary {
+  @apply bg-transparent text-white hover:bg-BUTTON;
+}
