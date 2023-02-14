@@ -8,13 +8,10 @@ const Header = ({}) => {
       <Container className='mt-8'>
         <div className='flex justify-between items-center my-4'>
           <Logo />
-          <div className='gap-10 hidden lg:flex'>
-            <div className='flex items-center gap-8'>
-              <Navigation />
-            </div>
-            <Button>Contact us</Button>
+          <div className='flex items-center gap-20'>
+            <Navigation />
+            <Bars3Icon className='w-6 h-6 text-MAIN ' />
           </div>
-          <Bars3Icon className='w-6 h-6 text-MAIN lg:hidden' />
         </div>
       </Container>
     </header>

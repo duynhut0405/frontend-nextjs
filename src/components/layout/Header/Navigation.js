@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 export default function Navigation() {
   const router = useRouter()
   return (
-    <nav className='hidden items-center gap-10 ml-14 lg:flex'>
+    <nav className='hidden items-center gap-10 ml-14 md:flex'>
       {headerJson.map((item) => {
         return (
           <Link
