@@ -1,6 +1,7 @@
 import { BlockHeroContent } from '@components/blocks'
-import BackgroundElement from '@components/layout/BackgroundElement'
+import dynamic from 'next/dynamic'
 import { Fragment } from 'react'
+const BackgroundElement = dynamic(import('../components/layout/BackgroundElement'), { ssr: false })
 
 export default function Home() {
   return (
