@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import Link from 'next/link'
 
 import s from './Button.module.css'
-export default function Container({ className, href, type = 'default', children, ...props }) {
+export default function Button({ className, href, type = 'default', children, ...props }) {
   const Component = href ? Link : 'button'
 
   const style = clsx(

@@ -1,5 +1,5 @@
 import { headerJson } from '@data/header'
-import { isActiveLink } from '@ultils/checkLinkActive'
+import { isActiveLink } from '@utils/checkLinkActive'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useRouter } from 'next/router'

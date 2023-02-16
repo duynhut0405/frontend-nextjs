@@ -1,0 +1,15 @@
+.root {
+  @apply mx-auto;
+}
+
+.large {
+  @apply max-w-[1400px];
+}
+
+.medium {
+  @apply max-w-[1300px];
+}
+
+.small {
+  @apply max-w-6xl;
+}

@@ -28,7 +28,3 @@
     @apply w-full border border-BUTTON;
   }
 }
-
-body {
-  @apply font-Poppins bg-BACKGROUND text-white;
-}
