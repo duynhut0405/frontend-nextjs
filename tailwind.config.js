@@ -7,6 +7,7 @@ module.exports = {
         BACKGROUND: '#0A142F',
         MAIN: '#FEC83E',
         CARD: '#E0E5F3',
+        CARD2: '#353F5B',
         BUTTON: '#FFC93E',
         TEXT: '#0A142F',
       },

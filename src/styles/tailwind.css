@@ -23,6 +23,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p {
+    @apply text-CARD leading-8;
+  }
+}
+
 @layer components {
   .navigation-underline {
     @apply w-full border border-BUTTON;

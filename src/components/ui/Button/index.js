@@ -14,7 +14,8 @@ export default function Button({ className, href, type = 'default', children, ..
 
   return (
     <Component className={style} {...props}>
-      {children} <ArrowUpRight className='w-4 h-4' />
+      {children}{' '}
+      <ArrowUpRight className='w-4 h-4' color={type === 'default' ? '#0A142F' : 'white'} />
     </Component>
   )
 }

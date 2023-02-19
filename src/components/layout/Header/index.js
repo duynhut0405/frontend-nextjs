@@ -1,8 +1,8 @@
 import React from 'react'
-import { Logo, Container, Button } from '@components/ui'
-import { Bars3Icon } from '@heroicons/react/24/solid'
+import { Logo, Container } from '@components/ui'
 import Navigation from './Navigation'
 import { NextSeo } from 'next-seo'
+import { Bar } from '@images/svg'
 const Header = ({}) => {
   return (
     <header className=''>
@@ -12,7 +12,7 @@ const Header = ({}) => {
           <Logo />
           <div className='flex items-center gap-20'>
             <Navigation />
-            <Bars3Icon className='w-6 h-6 text-MAIN ' />
+            <Bar />
           </div>
         </div>
       </Container>

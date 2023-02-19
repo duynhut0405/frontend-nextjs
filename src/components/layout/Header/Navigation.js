@@ -18,7 +18,7 @@ export default function Navigation() {
             {isActiveLink(item.link, router.pathname) && (
               <motion.div
                 layoutId='navigation-underline'
-                className='navigation-underline'
+                className='navigation-underline absolute w-5'
                 animate
               />
             )}

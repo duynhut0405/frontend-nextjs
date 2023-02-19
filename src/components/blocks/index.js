@@ -1,1 +1,6 @@
 export { default as BlockHeroContent } from './BlockHeroContent'
+export { default as BlockAboutUs } from './BlockAboutUs'
+export { default as BlockFanfact } from './BlockFanfact'
+export { default as BlockOurSolution } from './BlockOurSolution'
+export { default as BlockServices } from './BlockServices'
+export {default as BlockOurProject} from './BlockOurProject'
