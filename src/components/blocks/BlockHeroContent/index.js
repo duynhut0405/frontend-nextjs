@@ -18,21 +18,21 @@ export default function BlockHeroContent() {
       <div className='hidden lg:block absolute right-0 -z-10'>
         <Image src={Wire} alt='img' priority={100} quality={75} />
       </div>
-      <div className='block lg:hidden absolute right-0 -z-10'>
+      <div className='block lg:hidden absolute right-4 -z-10'>
         <Image src={Wire2} alt='img' priority={100} quality={75} />
       </div>
       <div className='flex justify-center items-center flex-col'>
         <div className='relative'>
-          <div className='absolute top-8 -left-12 lg:top-20 lg:-left-56 w-[130px] h-[80px] lg:w-[240px] lg:h-auto'>
+          <div className='absolute top-8 -left-10 lg:top-20 lg:-left-56 w-[130px] h-[80px] lg:w-[240px] lg:h-auto'>
             <Image
               src={WorldClass}
               alt='img'
-              priority={100}
+              priority={true}
               quality={75}
-              className='-rotate-[25deg]'
+              className='-rotate-[25deg] w-[95px]'
             />
           </div>
-          <h1 className='font-bold ml-20 lg:ml-0 text-[70px] md:text-[100px] lg:text-[10rem] mb-4 lg:mb-0 leading-none'>
+          <h1 className='font-bold ml-14 lg:ml-0 text-[70px] md:text-[100px] lg:text-[10rem] mb-4 lg:mb-0 leading-none'>
             Digital
           </h1>
         </div>
@@ -42,16 +42,16 @@ export default function BlockHeroContent() {
               src={Image2}
               fill
               alt='img'
-              priority={100}
-              quality={100}
-              className='rounded-[30px] object-cover'
+              priority={true}
+              quality={50}
+              className='rounded-[30px]'
             />
-            <div className='absolute -bottom-[25%] -right-[25%] text-white'>
+            <div className='absolute -bottom-[25%] -right-[25%] text-white -z-10'>
               <OrnamentCicle color={'white'} />
             </div>
           </div>
 
-          <div className='block lg:flex order-1 lg:order-2'>
+          <div className='block lg:flex order-1 lg:order-2 gap-2'>
             <div>
               <h1 className='font-bold text-7xl md:text-[100px] lg:text-[150px] leading-none'>
                 Agency
@@ -61,12 +61,12 @@ export default function BlockHeroContent() {
               </p>
               <Button className='mt-6 lg:mt-14'>Our Projects</Button>
             </div>
-            <div className='w-full lg:w-[466px] h-[333px] lg:h-[475px] relative mt-11'>
+            <div className='w-full lg:w-[466px] h-[333px] lg:h-[475px] relative mt-14'>
               <Image
                 src={Image1}
                 fill
                 alt='img'
-                priority={100}
+                priority={true}
                 quality={100}
                 className='rounded-[50px] object-cover'
               />

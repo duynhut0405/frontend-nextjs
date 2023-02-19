@@ -7,7 +7,7 @@ const Header = ({}) => {
   return (
     <header className=''>
       <NextSeo title='Company' description='company' lan />
-      <Container className='my-10'>
+      <Container type='large' className='my-10'>
         <div className='flex justify-between items-center my-4'>
           <Logo />
           <div className='flex items-center gap-20'>

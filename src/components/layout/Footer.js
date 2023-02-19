@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='mt-32 bg-CARD2'>
         <Container type='small' className='py-10 px-6 lg:py-12 lg:px-20'>
           <div className='flex flex-col lg:flex-row gap-8'>
-            <div className='flex-1 px-12 py-20 bg-MAIN rounded-[30px] relative max-w-xl'>
+            <div className='flex-1 px-12 py-14 lg:py-20 bg-MAIN rounded-[30px] relative max-w-xl'>
               <div className='border-b-2 border-b-TEXT'>
                 <p className='text-TEXT font-bold'>Sign Up to Receive Product Updates and More</p>
                 <div className='flex justify-between'>

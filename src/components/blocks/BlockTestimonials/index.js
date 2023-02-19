@@ -16,7 +16,7 @@ export default function BlockTestimonials() {
     <Container type='small'>
       <div className='pt-20 lg:pt-32'>
         <div className='flex justify-between items-center w-full mb-12'>
-          <h3 className='font-bold text-2xl md:text-5xl'>What say happy clients</h3>
+          <h3 className='font-bold text-2xl md:text-5xl'>What client says</h3>
           <div className='block lg:hidden'>
             <Link className='text-MAIN' href={''}>
               See all
@@ -28,10 +28,10 @@ export default function BlockTestimonials() {
             return (
               <div
                 key={item}
-                className='px-16 py-14 bg-CARD2 rounded-[50px] w-full lg:w-[750px] flex-shrink-0'>
+                className='px-7 lg:px-16 py-14 bg-CARD2 rounded-[50px] w-full lg:w-[750px] flex-shrink-0'>
                 <Quote />
                 <p className='my-8'>{data.content}</p>
-                <div className='flex items-center justify-between'>
+                <div className='flex flex-col lg:flex-row items-center justify-between'>
                   <div className='flex gap-4'>
                     <Image src={data.img} alt='avatar' className='rounded-full h-[70px] w-[70px]' />
                     <div className='flex flex-col justify-center'>
@@ -39,7 +39,9 @@ export default function BlockTestimonials() {
                       <span className='text-MAIN'>{data.position}</span>
                     </div>
                   </div>
-                  <Rating />
+                  <div className='ml-16 mt-4 lg:mt-0 lg:ml:0'>
+                    <Rating />
+                  </div>
                 </div>
               </div>
             )

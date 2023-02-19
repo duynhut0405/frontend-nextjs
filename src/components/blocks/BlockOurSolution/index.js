@@ -16,7 +16,12 @@ export default function BlockOurSolution() {
             <Image
               src={Image3}
               alt={'img'}
-              className='rounded-[50px] object-cover w-full h-[320px] lg:w-[666px] lg:h-[650px]'
+              className='rounded-[50px] object-cover h-80 lg:h-full'
+              priority={true}
+              quality={50}
+              sizes='(max-width: 768px) 100%,
+              (max-width: 1200px) 666px,
+              666px'
             />
             <div className='absolute -bottom-7 -left-7'>
               <OrnamentNet2 />

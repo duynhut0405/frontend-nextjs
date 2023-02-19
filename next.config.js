@@ -8,4 +8,7 @@ module.exports = withBundleAnalyzer({
     newNextLinkBehavior: true,
     scrollRestoration: true,
   },
+  images: {
+    minimumCacheTTL: 60,
+  },
 })
