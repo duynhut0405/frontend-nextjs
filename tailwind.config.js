@@ -11,13 +11,7 @@ module.exports = {
         BUTTON: '#FFC93E',
         TEXT: '#0A142F',
       },
-      fontFamily: {
-        Poppins: ['Poppins', 'sans-serif'],
-      },
     },
-  },
-  corePlugins: {
-    fontFamily: true,
   },
   plugins: [],
 }

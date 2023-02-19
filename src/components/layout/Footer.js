@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <div className='mt-32 bg-CARD2'>
-        <Container type='small' className='py-12 px-20'>
+        <Container type='small' className='py-10 px-6 lg:py-12 lg:px-20'>
           <div className='flex flex-col lg:flex-row gap-8'>
             <div className='flex-1 px-12 py-20 bg-MAIN rounded-[30px] relative max-w-xl'>
               <div className='border-b-2 border-b-TEXT'>
@@ -17,7 +17,7 @@ const Footer = () => {
                   <p className='text-TEXT'>{`>`}</p>
                 </div>
               </div>
-              <div className='absolute -top-8 -left-8'>
+              <div className='hidden lg:block absolute -top-8 -left-8'>
                 <OrnamentNet3 />
               </div>
             </div>

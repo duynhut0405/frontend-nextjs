@@ -12,7 +12,7 @@ export default function BlockHeroContent() {
       <div className='absolute bottom-0 lg:top-32'>
         <OrnamentStar className='w-6 h-6 lg:w-14 lg:h-14' />
       </div>
-      <div className='absolute -top-10 right-28 lg:top-0 lg:right-44'>
+      <div className='absolute -top-10 right-12 lg:top-0 lg:right-44'>
         <OrnamentStar className='w-6 h-6 lg:w-14 lg:h-14' />
       </div>
       <div className='hidden lg:block absolute right-0 -z-10'>
@@ -23,16 +23,16 @@ export default function BlockHeroContent() {
       </div>
       <div className='flex justify-center items-center flex-col'>
         <div className='relative'>
-          <div className='absolute top-0 -left-[30%] lg:top-0 lg:-left-[50%]'>
+          <div className='absolute top-8 -left-12 lg:top-20 lg:-left-56 w-[130px] h-[80px] lg:w-[240px] lg:h-auto'>
             <Image
               src={WorldClass}
               alt='img'
               priority={100}
               quality={75}
-              className='w-[130px] h-[80px] lg:w-[240px] lg:h-auto'
+              className='-rotate-[25deg]'
             />
           </div>
-          <h1 className='font-bold ml-10 lg:ml-0 text-[70px] md:text-[100px] lg:text-[10rem] leading-none'>
+          <h1 className='font-bold ml-20 lg:ml-0 text-[70px] md:text-[100px] lg:text-[10rem] mb-4 lg:mb-0 leading-none'>
             Digital
           </h1>
         </div>
@@ -53,9 +53,9 @@ export default function BlockHeroContent() {
 
           <div className='block lg:flex order-1 lg:order-2'>
             <div>
-              <p className='font-bold text-7xl md:text-[100px] lg:text-[150px] leading-none'>
+              <h1 className='font-bold text-7xl md:text-[100px] lg:text-[150px] leading-none'>
                 Agency
-              </p>
+              </h1>
               <p className='text-2xl leading-10 max-w-[500px] font-normal text-CARD mt-6 lg:mt-10'>
                 Full-service design support that growing B2B companies need. World leading agency.
               </p>
