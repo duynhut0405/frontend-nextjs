@@ -11,18 +11,6 @@ const data = {
   position: 'Pendron.Inc, CEO',
 }
 
-const settings = {
-  className: 'center',
-  centerMode: true,
-  centerPadding: '60px',
-  infinite: true,
-  centerPadding: '40px',
-  slidesToShow: 2,
-  speed: 500,
-  dots: false,
-  arrows: false,
-}
-
 export default function BlockTestimonials() {
   return (
     <Container type='small'>

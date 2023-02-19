@@ -16,10 +16,10 @@ export default function BlockHeroContent() {
         <OrnamentStar className='w-6 h-6 lg:w-14 lg:h-14' />
       </div>
       <div className='hidden lg:block absolute right-0 -z-10'>
-        <Image src={Wire} width={700} height={750} alt='img' priority={100} quality={75} />
+        <Image src={Wire} alt='img' priority={100} quality={75} />
       </div>
       <div className='block lg:hidden absolute right-0 -z-10'>
-        <Image src={Wire2} width={700} height={750} alt='img' priority={100} quality={75} />
+        <Image src={Wire2} alt='img' priority={100} quality={75} />
       </div>
       <div className='flex justify-center items-center flex-col'>
         <div className='relative'>

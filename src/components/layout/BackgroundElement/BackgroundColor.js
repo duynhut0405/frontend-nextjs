@@ -1,7 +1,5 @@
-import Image3 from '@images/png/Image3.png'
 import { OrnamentNet } from '@images/svg'
 import clsx from 'clsx'
-import Image from 'next/image'
 
 export default function BackgroundColor({ position, className }) {
   return (

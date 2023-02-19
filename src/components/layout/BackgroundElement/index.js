@@ -1,4 +1,4 @@
-import { OrnamentCicle, OrnamentNet } from '@images/svg'
+import { OrnamentCicle } from '@images/svg'
 import BackgroundColor from './BackgroundColor'
 
 export default function BackgroundElement() {
