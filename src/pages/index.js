@@ -5,6 +5,7 @@ import {
   BlockOurProject,
   BlockOurSolution,
   BlockServices,
+  BlockTestimonials,
 } from '@components/blocks'
 import dynamic from 'next/dynamic'
 import { Fragment } from 'react'
@@ -20,6 +21,7 @@ export default function Home() {
       <BlockOurSolution />
       <BlockServices />
       <BlockOurProject />
+      <BlockTestimonials />
     </Fragment>
   )
 }

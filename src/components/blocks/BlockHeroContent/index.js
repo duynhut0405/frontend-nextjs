@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Image1 from '@images/blocks/Image1.jpg'
 import Image2 from '@images/blocks/Image2.jpg'
 import Wire from '@images/png/Image1.png'
+import Wire2 from '@images/png/Image4.png'
 import WorldClass from '@images/png/Image2.png'
 import { OrnamentCicle, OrnamentStar, PlayVideo } from '@images/svg'
 export default function BlockHeroContent() {
@@ -14,8 +15,11 @@ export default function BlockHeroContent() {
       <div className='absolute -top-10 right-28 lg:top-0 lg:right-44'>
         <OrnamentStar className='w-6 h-6 lg:w-14 lg:h-14' />
       </div>
-      <div className='absolute right-0 -z-10'>
+      <div className='hidden lg:block absolute right-0 -z-10'>
         <Image src={Wire} width={700} height={750} alt='img' priority={100} quality={75} />
+      </div>
+      <div className='block lg:hidden absolute right-0 -z-10'>
+        <Image src={Wire2} width={700} height={750} alt='img' priority={100} quality={75} />
       </div>
       <div className='flex justify-center items-center flex-col'>
         <div className='relative'>
@@ -52,10 +56,10 @@ export default function BlockHeroContent() {
               <p className='font-bold text-7xl md:text-[100px] lg:text-[150px] leading-none'>
                 Agency
               </p>
-              <p className='text-2xl leading-10 max-w-[500px] font-normal text-CARD mt-10'>
+              <p className='text-2xl leading-10 max-w-[500px] font-normal text-CARD mt-6 lg:mt-10'>
                 Full-service design support that growing B2B companies need. World leading agency.
               </p>
-              <Button className='mt-14'>Our Projects</Button>
+              <Button className='mt-6 lg:mt-14'>Our Projects</Button>
             </div>
             <div className='w-full lg:w-[466px] h-[333px] lg:h-[475px] relative mt-11'>
               <Image
