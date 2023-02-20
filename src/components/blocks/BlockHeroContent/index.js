@@ -29,7 +29,7 @@ export default function BlockHeroContent() {
               alt='img'
               priority={true}
               quality={75}
-              className='-rotate-[25deg] w-[95px]'
+              className='-rotate-[25deg] w-[95px] lg:w-auto'
             />
           </div>
           <h1 className='font-bold ml-14 lg:ml-0 text-[70px] md:text-[100px] lg:text-[10rem] mb-4 lg:mb-0 leading-none'>

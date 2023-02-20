@@ -1,6 +1,8 @@
 import {
+  BlockBlog,
   BlockFanfact,
   BlockHeroContent,
+  BlockLogo,
   BlockServices,
   BlockTestimonials,
 } from '@components/blocks'
@@ -16,11 +18,13 @@ export default function Home() {
       <BackgroundElement />
       <BlockHeroContent />
       <BlockAboutUs />
+      <BlockLogo />
       <BlockFanfact />
       <BlockOurSolution />
       <BlockServices />
       <BlockOurProject />
       <BlockTestimonials />
+      <BlockBlog />
     </Fragment>
   )
 }
