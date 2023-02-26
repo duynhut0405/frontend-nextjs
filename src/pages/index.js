@@ -1,8 +1,6 @@
 import {
-  BlockBlog,
   BlockFanfact,
   BlockHeroContent,
-  BlockLogo,
   BlockServices,
   BlockTestimonials,
 } from '@components/blocks'
@@ -12,6 +10,8 @@ const BackgroundElement = dynamic(import('../components/layout/BackgroundElement
 const BlockOurSolution = dynamic(import('../components/blocks/BlockOurSolution'))
 const BlockOurProject = dynamic(import('../components/blocks/BlockOurProject'))
 const BlockAboutUs = dynamic(import('../components/blocks/BlockAboutUs'))
+const BlockBlog = dynamic(import('../components/blocks/BlockBlog'))
+const BlockLogo = dynamic(import('../components/blocks/BlockLogo'))
 export default function Home() {
   return (
     <Fragment>

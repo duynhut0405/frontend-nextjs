@@ -44,7 +44,7 @@ export default function BlockHeroContent() {
               alt='img'
               priority={true}
               quality={50}
-              className='rounded-[30px]'
+              className='rounded-[30px] object-cover'
             />
             <div className='absolute -bottom-[25%] -right-[25%] text-white -z-10'>
               <OrnamentCicle color={'white'} />

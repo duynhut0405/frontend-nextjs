@@ -14,7 +14,6 @@ const settings = {
 }
 
 export default function BlockServices() {
-  console.log('🚀 ~ file: index.js:3 ~ blogs', blogs)
   return (
     <Container type='small' className='mt-32'>
       <div className='flex justify-between items-center mb-10'>

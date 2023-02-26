@@ -39,22 +39,4 @@ export const blogs = [
       'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing ',
     img: Image8,
   },
-  {
-    category: 'TECHNOLOGY',
-    user: 'John Doe',
-    date: '19 Jan 2022',
-    title: 'A small business is only as good as its tools and it is totally true.',
-    description:
-      'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing ',
-    img: Image7,
-  },
-  {
-    category: 'TECHNOLOGY',
-    user: 'John Doe',
-    date: '19 Jan 2022',
-    title: 'A small business is only as good as its tools and it is totally true.',
-    description:
-      'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing ',
-    img: Image8,
-  },
 ]
