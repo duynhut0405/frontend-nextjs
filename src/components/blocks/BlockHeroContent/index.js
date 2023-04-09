@@ -7,22 +7,15 @@ import Wire2 from '@images/png/Image4.png'
 import WorldClass from '@images/png/Image2.png'
 import { OrnamentCicle, OrnamentStar, PlayVideo } from '@images/svg'
 import { motion } from 'framer-motion'
-import { FADE_DOWN_ANIMATION_VARIANTS } from '@data/constants'
+import { CONTAINER, FADE_DOWN_ANIMATION_VARIANTS } from '@data/constants'
 export default function BlockHeroContent() {
   return (
     <motion.div
-      initial='hidden'
-      whileInView='show'
-      animate='show'
+      layoutScroll
       viewport={{ once: true }}
-      variants={{
-        hidden: {},
-        show: {
-          transition: {
-            staggerChildren: 0.15,
-          },
-        },
-      }}>
+      initial='hidden'
+      whileInView='visible'
+      variants={CONTAINER}>
       <Container className='relative' type='large'>
         <motion.div variants={FADE_DOWN_ANIMATION_VARIANTS} className='absolute bottom-0 lg:top-32'>
           <OrnamentStar className='w-6 h-6 lg:w-14 lg:h-14' />
@@ -60,7 +53,7 @@ export default function BlockHeroContent() {
           <div className='flex flex-col lg:flex-row justify-between gap-10 lg:gap-0'>
             <motion.div
               variants={FADE_DOWN_ANIMATION_VARIANTS}
-              className='w-[250px] h-[300px] relative mr-20 self-end mt-[25%] order-2 lg:order-1'>
+              className='w-[250px] h-[300px] relative lg:mr-20 mt-[25%] self-start order-2 lg:order-1'>
               <Image
                 src={Image2}
                 fill

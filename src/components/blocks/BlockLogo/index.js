@@ -14,7 +14,7 @@ export default function BlockLogo() {
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6'>
         {array.map((item, index) => (
           <div key={index} className='flex justify-center items-center'>
-            <Image src={item} alt='img' className='aspect-[4/1]' />
+            <Image src={item} alt='img' />
           </div>
         ))}
       </div>

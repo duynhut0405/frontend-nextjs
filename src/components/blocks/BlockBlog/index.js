@@ -7,7 +7,7 @@ import BlogCard from './BlogCard'
 const settings = {
   infinite: true,
   centerPadding: '40px',
-  slidesToShow: 1,
+  slidesTovisible: 1,
   speed: 500,
   dots: false,
   arrows: false,

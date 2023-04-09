@@ -11,4 +11,5 @@ module.exports = withBundleAnalyzer({
   images: {
     minimumCacheTTL: 60,
   },
+  
 })

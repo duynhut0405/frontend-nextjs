@@ -11,7 +11,10 @@ export default function BackgroundElement() {
         <div className='bottom-0 right-0 absolute'>
           <OrnamentCicle />
         </div>
-        <BackgroundColor position='top-0 left-0' className='bg-[#7C3EFF] w-[341px] h-[341px]' />
+        <BackgroundColor
+          position='top-0 left-0'
+          className='bg-[#7C3EFF] w-full lg:w-[341px] h-[341px]'
+        />
         <BackgroundColor position='top-0 right-0' className='bg-[#BE229C] w-[300px] h-[300px]' />
         <BackgroundColor position='bottom-0 left-0' className='bg-[#22B5BE] w-[242px] h-[242px]' />
         <BackgroundColor position='bottom-0 right-0' className='bg-[#FFC93E] w-[225px] h-[225px]' />
